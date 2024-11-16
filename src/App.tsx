@@ -1,8 +1,5 @@
 import { useEffect, useState } from "react";
 
-
-
-
 function App() {
   const [socket, setSocket] = useState<null | WebSocket>(null);
   const [latestMessage, setLatestMessage] = useState("");
