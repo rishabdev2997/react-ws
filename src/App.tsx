@@ -4,8 +4,6 @@ function App() {
   const [socket, setSocket] = useState<null | WebSocket>(null);
   const [latestMessage, setLatestMessage] = useState("");
   
-
-  
   useEffect(() => {
     const socket = new WebSocket('ws://localhost:8080');
     socket.onopen = () =>{
@@ -16,6 +14,9 @@ function App() {
       setLatestMessage(message.data)
     }
     setSocket(socket);
+
+
+    
   },[]) 
 
   if(!socket){
