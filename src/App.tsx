@@ -13,12 +13,7 @@ function App() {
       console.log('Message received: ', message.data)
       setLatestMessage(message.data)
     }
-    setSocket(socket);
-  
-
-    
-
-    
+    setSocket(socket); 
   },[]) 
 
   if(!socket){
