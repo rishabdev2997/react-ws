@@ -14,10 +14,7 @@ function App() {
       setLatestMessage(message.data)
     }
     setSocket(socket); 
-  },[]) 
-
-
-  
+  },[])
   if(!socket){
     return <div>
       Loading...
