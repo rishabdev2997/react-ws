@@ -15,6 +15,9 @@ function App() {
     }
     setSocket(socket); 
 
+
+
+    
   },[])
   if(!socket){
     return <div>
