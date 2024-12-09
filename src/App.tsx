@@ -16,8 +16,7 @@ function App() {
     setSocket(socket); 
 
 
-
-
+    
     
   },[])
   if(!socket){
