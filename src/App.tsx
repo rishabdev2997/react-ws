@@ -14,6 +14,9 @@ function App() {
       setLatestMessage(message.data)
     }
     setSocket(socket); 
+
+
+    
     
   },[])
   if(!socket){
