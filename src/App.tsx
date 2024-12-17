@@ -19,8 +19,11 @@ function App() {
     return <div>
       Loading...
     </div>
-  }
 
+
+
+
+  }
   return <div>
     {latestMessage}
   </div>
