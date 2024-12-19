@@ -20,6 +20,9 @@ function App() {
       Loading...
     </div>
   }
+
+
+  
   return <div>
     {latestMessage}
   </div>
