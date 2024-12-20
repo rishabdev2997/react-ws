@@ -20,12 +20,8 @@ function App() {
       Loading...
     </div>
   }
-
-
-  
   return <div>
     {latestMessage}
   </div>
 }
-
 export default App
