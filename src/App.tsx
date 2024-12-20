@@ -12,6 +12,14 @@ function App() {
     socket.onmessage = (message) =>{
       console.log('Message received: ', message.data)
       setLatestMessage(message.data)
+
+
+
+
+
+      
+
+
     }
     setSocket(socket);
   },[])
@@ -20,12 +28,8 @@ function App() {
       Loading...
     </div>
   }
-
-
-  
   return <div>
     {latestMessage}
   </div>
 }
-
 export default App
