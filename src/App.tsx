@@ -12,11 +12,6 @@ function App() {
     socket.onmessage = (message) =>{
       console.log('Message received: ', message.data)
       setLatestMessage(message.data)
-
-
-
-
-
       
 
 
