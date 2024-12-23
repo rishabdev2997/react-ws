@@ -22,13 +22,16 @@ function App() {
     return <div>
       Loading...
     </div>
-
-
-
-
   }
   return <div>
     {latestMessage}
   </div>
+
+
+
+
+
+
+
 }
 export default App
